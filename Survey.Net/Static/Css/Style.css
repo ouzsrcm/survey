@@ -1,0 +1,50 @@
+﻿html, body {background-color: #eee; min-width:1000px; -webkit-user-select:none; -webkit-text-size-adjust:none; }
+.left { float:left; }
+.right { float:right; }
+.clear { clear:both; }
+form { margin:0px; padding:0px; }
+.container {width: 350px; margin-top:150px;}
+.container > .content {background-color: #fff;padding: 20px;margin: 0 -20px; -webkit-border-radius: 10px 10px 10px 10px;-moz-border-radius: 10px 10px 10px 10px;border-radius: 10px 10px 10px 10px;
+-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.15);-moz-box-shadow: 0 1px 2px rgba(0,0,0,.15);box-shadow: 0 1px 2px rgba(0,0,0,.15);}
+.login-form {margin-left: 45px;}
+legend {margin-right: -50px; font-weight: bold;color: #404040;}
+.hidden {display:none;}
+.show { display:block; }
+.selected { background:url(../Images/mbg-hover.jpg) repeat-x center left; }
+.edit-cursor { cursor:text; }
+.question-details { width:0%; }
+.hover-question-item { line-height:30px; background-color:#6d6d6d; }
+
+.page { width:100%; height:100%; }
+    .page .page-container { width:75%; border-top-right-radius:5px; margin-top:10px; background-color:#ffffff; margin-right:2%; }
+            .page-container .page-container-wrapper { width:100%; padding:5px; position:relative; }
+                                .page-container-wrapper #title { color:#218dd5; font-size:30px; margin-top:5px; }
+                                .page-container-wrapper #contentQuestions { width:100%; overflow:auto; cursor:n-resize; }
+                                .page-container-wrapper #contentQuestions #homeQuestions { list-style-type:none; width:99%; padding:3px 3px 3px 0px; margin:0px; }
+                                .page-container-wrapper #contentQuestions #homeQuestions li { line-height:30px; border-bottom:solid 1px #e5e5e5; list-style-type:none; }
+                                .page-container-wrapper #dvQuestionDetails #myTabContent {  }
+
+    .page .page-nav { width:22%; text-align:center; background-color:#dbe2e8; height:100%; }
+            .page-nav .page-nav-wrapper { width:100%; padding:5px; }
+
+                        .page-nav-wrapper #logo { width:100%; font-size:30px; color:#218dd5; margin-top:30px; margin-bottom:30px; }
+
+                        .page-nav-wrapper .category-list { width:98%; padding:2px; margin:0px; list-style-type:none; }
+                        .page-nav-wrapper .category-list li { text-align:left; line-height:25px; text-indent:5px; background:url(../Images/mbg.jpg) repeat-x center left; cursor:pointer; }
+                        .page-nav-wrapper .category-list li:hover { background:url(../Images/mbg-hover.jpg) repeat-x center left; }
+                        .page-nav-wrapper .category-list li a{ text-decoration:none; color:#6d6d6d; }
+                        .page-nav-wrapper .category-list li a:hover{ text-decoration:none; color:#393838; }
+
+                        .page-nav-wrapper .surveys-list { width:98%; padding:2px; margin:0px; list-style-type:none; }
+                        .page-nav-wrapper .surveys-list li { text-align:left; line-height:25px; text-indent:5px; background:url(../Images/mbg.jpg) repeat-x center left; cursor:pointer; }
+                        .page-nav-wrapper .surveys-list li:hover { background:url(../Images/mbg-hover.jpg) repeat-x center left; }
+                        .page-nav-wrapper .surveys-list li a{ text-decoration:none; color:#6d6d6d; }
+                        .page-nav-wrapper .surveys-list li a:hover{ text-decoration:none; color:#393838; }
+
+                        .page-nav-wrapper .users-list { width:98%; padding:2px; margin:0px; list-style-type:none; }
+                        .page-nav-wrapper .users-list li { text-align:left; line-height:25px; text-indent:5px; background:url(../Images/mbg.jpg) repeat-x center left; cursor:pointer; }
+                        .page-nav-wrapper .users-list li:hover { background:url(../Images/mbg-hover.jpg) repeat-x center left; }
+                        .page-nav-wrapper .users-list li a{ text-decoration:none; color:#6d6d6d; }
+                        .page-nav-wrapper .users-list li a:hover{ text-decoration:none; color:#393838; }
+
+                        .page-nav-wrapper .nav-commands { width:100%; text-align:left; }
